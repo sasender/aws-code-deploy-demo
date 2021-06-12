@@ -1,5 +1,5 @@
-# will install the dependencies to run the applications.
 #!/bin/bash
+# will install the dependencies to run the applications.
 
 #install docker
 sudo apt update
