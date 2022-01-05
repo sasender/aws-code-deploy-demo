@@ -9,8 +9,8 @@ WORKDIR /app
 # Copy all files from current directory to working dir in image
 COPY ./demo-react-app/ .
 # install node modules and build assets
-RUN yarn install && yarn build
-
+#RUN yarn install && yarn build
+RUN npm install && npm brun build 
 # nginx state for serving content
 FROM nginx:alpine
 # Set working directory to nginx asset directory
