@@ -21,4 +21,4 @@ hooks:
 
   ApplicationStart:
     - location: aws-scripts/app-start.sh
-      timeout: 600
+      timeout: 800
