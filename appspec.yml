@@ -13,7 +13,7 @@ hooks:
 
   BeforeInstall:
     - location: aws-scripts/before-install.sh
-      timeout: 500
+      timeout: 700
 
   AfterInstall:
     - location: aws-scripts/after-install.sh
@@ -21,4 +21,4 @@ hooks:
 
   ApplicationStart:
     - location: aws-scripts/app-start.sh
-      timeout: 500
+      timeout: 600
